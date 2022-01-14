@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    padding: 5px 10px;
+    object-fit: scale-down;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.header {
+    height: 450px;
+    background-size: cover;
+    background-image: url("/img/keyboard.jpg");
+    border: green 1px solid;
+}
+
+.headerlogo,
+.searchbar,
+.headerbutton {
+    float: left;
+}
+
+.searchbar {
+    width: 60%;
+    height: 40px;
+    margin: 15px 15px;
+}
+
+.headerbutton {
+    background-color: #821918;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.headertext {
+    clear: both;
+}
