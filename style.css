@@ -11,12 +11,20 @@ body {
     background-color: black;
 }
 
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .header {
     height: 450px;
     background-size: cover;
     background-image: url("/img/keyboard.jpg");
     border: green 1px solid;
 }
+
+
+/* i dont know why but the header image just wont show up, but i think its because the image height is too big*/
 
 .headerlogo,
 .searchbar,
@@ -43,4 +51,91 @@ body {
 
 .headertext {
     clear: both;
+    margin-left: 300px;
+    padding-top: 200px;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+.headertext p b {
+    font-size: 1.2em;
+}
+
+main {
+    background-color: #1a1818;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+    text-shadow: 5px 5px 5px white;
+}
+
+.sectionwrapper {
+    overflow: hidden;
+}
+
+.sectioncontainer {
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #235a8d;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 5%
+}
+
+#frontend {
+    width: 25%;
+    float: left;
+}
+
+#backend {
+    width: 25%;
+    float: left;
+}
+
+#projects {
+    width: 25%;
+    float: left;
+}
+
+.sectioncontainer h3 {
+    font-size: 2em;
+}
+
+.sectioncontainer p {
+    font-size: 14pt;
+}
+
+hr {
+    width: 250px;
+    margin: 10px 0px;
+    margin-left: 40px;
+}
+
+.coursebutton {
+    height: 35px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+.footerlogo {
+    display: block;
+    margin: 20px auto;
+    width: 15%;
+}
+
+.footerwrapper p {
+    font-size: 1.2em;
+    margin: 10px 0;
 }
