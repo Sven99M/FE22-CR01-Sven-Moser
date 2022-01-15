@@ -23,15 +23,10 @@ button:hover {
     margin: 0 auto;
 }
 
-.headerwrapper {
-    overflow: hidden;
-}
 
-
-/* I dont know why but the header image just wont show up, but i think its because the image height is too big*/
+/* I dont know why but the header background image just wont show up, but i think its because the image height is too big*/
 
 .header {
-    height: 450px;
     background-image: url("/img/keyboard.jpg");
     overflow: hidden;
     zoom: 1;
@@ -218,6 +213,9 @@ hr {
     margin: 10px 0px;
     margin-left: 40px;
 }
+
+
+/* couldnt figure out how to align all "click too see more" vertically */
 
 .coursebutton {
     height: 35px;
