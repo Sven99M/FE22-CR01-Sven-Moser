@@ -5,10 +5,12 @@
 
 body {
     color: white;
-    padding: 5px 10px;
-    object-fit: scale-down;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
+}
+
+a {
+    text-decoration: none;
 }
 
 .wrapper {
@@ -16,26 +18,35 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    height: 450px;
-    background-size: cover;
-    background-image: url("/img/keyboard.jpg");
-    border: green 1px solid;
+.headerwrapper {
+    overflow: hidden;
 }
 
 
 /* i dont know why but the header image just wont show up, but i think its because the image height is too big*/
 
+.header {
+    height: 450px;
+    background-image: url("/img/keyboard.jpg");
+    object-fit: cover;
+}
+
 .headerlogo,
 .searchbar,
 .headerbutton {
     float: left;
+    overflow: hidden;
+}
+
+.headerlogo {
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .searchbar {
-    width: 60%;
+    width: 50%;
     height: 40px;
-    margin: 15px 15px;
+    margin: 15px 0 0 100px;
 }
 
 .headerbutton {
@@ -44,7 +55,7 @@ body {
     padding: 20px;
     border-radius: 15px;
     border: none;
-    margin: 10px;
+    margin: 10px 0 0 30px;
     font-weight: bold;
     font-size: 1.1em;
 }
@@ -65,11 +76,12 @@ h2 {
 
 main {
     background-color: #1a1818;
+    width: 100%;
 }
 
 h1 {
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0;
     font-size: 3em;
     text-shadow: 5px 5px 5px white;
 }
